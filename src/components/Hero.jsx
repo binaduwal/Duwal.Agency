@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="container mx-auto pt-38 flex flex-col  md:flex-row items-center justify-between pb-6 px-4 sm:px-6 lg:px-8">
       {/* left col */}
-      <div className="w-full md:w-1/2 space-y-8">
+      <div className="w-full md:w-1/2 space-y-">
         <div className="flex items-center gap-2 bg-gray-50 py-2 w-fit rounded-full px-4 cursor-pointer group">
           <span className="text-blue-400 text-xl pr-2 group-hover:text-amber-300 group:hover:scale-105 transition-all duration-300">
             ★
@@ -30,14 +30,14 @@ const Hero = () => {
             placeholder="Enter your email "
             className="py-2 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition-all"
           ></input>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600  transition-all duration-300">
+          <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-all duration-300">
             →
           </button>
         </div>
       </div>
 
       {/* right col */}
-      <div className="w-full md:w-1/2 flex justify-center items-center">
+      <div className="w-full md:w-1/2 flex mt-6 justify-center items-center">
         <div className="relative">
           <img
             src={heroImg}
