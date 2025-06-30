@@ -10,7 +10,7 @@ const CompanyLogo = () => {
   return (
 <div className="container mx-auto flex items-center gap-8 overflow-hidden">
   {/* Left text */}
-  <div className="border-l-4 border-blue-500 px-4 bg-white text-gray-500 py-2 text-xl  font-semibold pl-6 whitespace-nowrap">
+  <div className="border-l-4 border-blue-500 px-4 bg-white text-gray-500 py-2 text-lg  font-semibold pl-6 whitespace-nowrap">
     Proud partner at <br />
     Hubspot & Segment
   </div>
