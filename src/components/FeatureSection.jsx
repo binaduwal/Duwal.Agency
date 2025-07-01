@@ -1,5 +1,7 @@
 import React from 'react'
 import { features } from '../assets/data';
+import Button from "../reusable/Button";
+
 const FeatureSection = () => {
   return (
     <section className="max-w-7xl  mx-auto py-16 px-4 sm:px-6 lg:px-8 ">
@@ -35,10 +37,10 @@ const FeatureSection = () => {
 
       {/* button */}
       <div className="item-center flex justify-center">
-        <button className="bg-blue-600 text-white cursor-pointer py-3 px-6  hover:bg-blue-700 transition-colors rounded-full mt-8  font-semibold text-lg relative">
+        <Button className="relative">
           Become a partner
         <div className="absolute z-10 w-full h-full rounded-full bg-blue-600/20 blur-xl top-0 left-0 shadow-2xl "></div>
-        </button>
+        </Button>
       </div>
     </section>
   );

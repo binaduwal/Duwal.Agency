@@ -4,6 +4,7 @@ import FeatureSection from './components/FeatureSection';
 import Hero from './components/Hero'
 import MonitorSection from './components/MonitorSection';
 import Navbar from './components/Navbar'
+import PricingSection from './components/PricingSection';
 import PurposeSection from './components/PurposeSection';
 import ScheduleSection from './components/ScheduleSection';
 
@@ -19,6 +20,7 @@ function App() {
         <FeatureSection/>
         <ScheduleSection/>
         <MonitorSection/>
+        <PricingSection/>
       </div>
     </main>
   );
