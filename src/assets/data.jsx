@@ -2,45 +2,50 @@ import { BsStack } from "react-icons/bs";
 import { HiLightBulb } from "react-icons/hi";
 import { FiSettings } from "react-icons/fi";
 import { BiTime } from "react-icons/bi";
+import { CiCircleCheck } from "react-icons/ci";
 
 export const purpose = [
   {
-    icon: "🟣",
+    icon: <CiCircleCheck />,
     title: "Empowered for Excellence",
-    description: "We bring together talented designers, developers, and marketers to make a meaningful difference.",
+    description:
+      "We bring together talented designers, developers, and marketers to make a meaningful difference.",
   },
   {
-    icon: "🔴",
+    icon: <CiCircleCheck />,
     title: "Aligned with Your Vision",
-    description: "We adapt to your goals, processes, and timelines to ensure smooth and efficient collaboration.",
+    description:
+      "We adapt to your goals, processes, and timelines to ensure smooth and efficient collaboration.",
   },
 ];
-
 
 export const features = [
   {
     icon: "🔍",
     title: "Understand Your Needs",
-    description: "We carefully listen and propose tailored solutions based on your requirements.",
+    description:
+      "We carefully listen and propose tailored solutions based on your requirements.",
   },
   {
     icon: "⚙️",
     title: "Craft the Right Plan",
-    description: "We define clear steps, timelines, and expectations for seamless execution.",
+    description:
+      "We define clear steps, timelines, and expectations for seamless execution.",
   },
   {
     icon: "🚀",
     title: "Launch with Confidence",
-    description: "We deliver fast, maintain transparency, and keep you informed at every step.",
+    description:
+      "We deliver fast, maintain transparency, and keep you informed at every step.",
   },
 ];
-
 
 export const services = [
   {
     icon: <BsStack className="w-8 h-8 text-indigo-600" />,
     title: "UI/UX Design",
-    description: "We craft visually engaging and user-friendly digital experiences.",
+    description:
+      "We craft visually engaging and user-friendly digital experiences.",
     link: "#learn-more",
   },
   {
@@ -52,7 +57,8 @@ export const services = [
   {
     icon: <FiSettings className="w-8 h-8 text-red-400" />,
     title: "Process Automation",
-    description: "Automate repetitive tasks and improve your business workflow.",
+    description:
+      "Automate repetitive tasks and improve your business workflow.",
     link: "#learn-more",
   },
   {
@@ -62,7 +68,6 @@ export const services = [
     link: "#learn-more",
   },
 ];
-
 
 export const testimonials = [
   {
@@ -102,7 +107,6 @@ export const testimonials = [
     text: "The whole process from start to finish was smooth. I highly recommend their services to anyone looking for quality work.",
   },
 ];
-
 
 export const footerLinks = {
   company: [
