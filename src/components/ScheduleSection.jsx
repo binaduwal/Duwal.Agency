@@ -1,5 +1,5 @@
 import React from "react";
-import ScheduleImage from "../assets/ScheduleImage.png";
+import ScheduleImage from "../assets/scheduleImage.png";
 import { IoArrowForward } from "react-icons/io5";
 const ScheduleSection = () => {
   return (

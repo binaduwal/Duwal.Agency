@@ -7,7 +7,7 @@ const ServiceSection = () => {
       <div className="flex flex-col mt-10 md:flex-row items-center gap-30">
         {/* header */}
 
-        <div className="md:w-1/3  w-full">
+        <div className="md:w-1/3  w-full space-y-2">
           <h2 className="text-2xl font-bold">
             Future of support with new shape
           </h2>
@@ -42,7 +42,7 @@ const ServiceSection = () => {
               className="max-w-72  bg-gray-50 shadow-md rounded-md cursor-pointer hover:scale-100 hover:shadow-xl transition-all duration-300 p-6"
             >
               <div>{service.icon}</div>
-              <h3>{service.title}</h3>
+              <h3 className="text-lg font-bold">{service.title}</h3>
               <p>{service.description}</p>
               <a className="text-sm text-indigo-500">LEARN MORE</a>
             </div>
