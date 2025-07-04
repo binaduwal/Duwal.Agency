@@ -3,8 +3,8 @@ import Button from "../reusable/Button";
 import { services } from "../assets/data";
 const ServiceSection = () => {
   return (
-    <section className="container mx-auto py-15 px-6 ">
-      <div className="flex flex-col   md:flex-row items-center gap-30">
+    <section className="container mx-auto py-15 px-6" id='services'>
+      <div className="flex flex-col mt-10 md:flex-row items-center gap-30">
         {/* header */}
 
         <div className="md:w-1/3  w-full">

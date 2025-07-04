@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { HiX } from "react-icons/hi";
 import { useLocation } from "react-router-dom";
+import { motion } from "framer-motion"
+import { fadeIn } from "../utils/motion";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -9,11 +11,16 @@ const Navbar = () => {
   const navItems = [
     { label: "Home", link: "/" },
     { label: "About", link: "#about" },
-    { label: "Services", link: "/services" },
-    { label: "Contact", link: "/contact" },
+    { label: "Services", link: "#services" },
+    { label: "Testimonials", link: "#testimonials" },
   ];
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/90 z-50 border-b border-gray-100  shadow-md">
+    <motion.nav   
+    variants={fadeIn('down',0.2)}
+    initial="hidden"
+    whileInView="show"
+    viewport={{once:true}}
+    className="fixed top-0 left-0 right-0 bg-white/90 z-50 border-b border-gray-100  shadow-md">
       <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
         <div className="flex items-center gap-1 cursor-pointer">
           <div className="w-4 h-4 bg-blue-500 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
@@ -76,7 +83,7 @@ const Navbar = () => {
           Get in touch
         </button>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 

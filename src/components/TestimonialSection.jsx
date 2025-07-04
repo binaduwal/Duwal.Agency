@@ -11,7 +11,6 @@ const TestimonialSection = () => {
   const nextRef = useRef(null);
   const [swiperInstance, setSwiperInstance] = useState(null);
 
-  // Attach navigation once refs are available
   useEffect(() => {
     if (swiperInstance && prevRef.current && nextRef.current) {
       swiperInstance.params.navigation.prevEl = prevRef.current;
@@ -24,8 +23,8 @@ const TestimonialSection = () => {
   }, [swiperInstance]);
 
   return (
-    <section className="py-10 container mx-auto">
-      <div className="text-center mb-10">
+    <section className="py-10 container mx-auto" id='testimonials'>
+      <div className="text-center mb-10 mt-20">
         <h2 className="text-3xl font-bold">What our clients say</h2>
         <p className="text-gray-600">Things that our clients say about us</p>
       </div>

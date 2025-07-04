@@ -2,7 +2,7 @@ import React from "react";
 import { purpose } from "../assets/data";
 const PurposeSection = () => {
   return (
-    <section className="w-full bg-gray-50 py-16 scroll-mt-16 md:scroll-mt-20" id="about">
+    <section className="w-full bg-gray-50 py-16 scroll-mt-16 md:scroll-mt-30" id="about">
       <div className="container mx-auto px-4 lg:px-32 xl:px-48">
         <div className="grid md:grid-cols-3 grid-col-1 gap-10">
           <div>
